@@ -30,11 +30,11 @@ docker run --rm \
 ```
 ### Migrate:
 ```bash
-
+php artisan migrate
 ```
 ### Seeder:
 ```bash
-
+php artisan migrate:fresh --seed
 ```
 ### Tests:
 ```bash
@@ -42,5 +42,5 @@ docker run --rm \
 ```
 ### Run Project:
 ```bash
-
+php artisan serve
 ```
