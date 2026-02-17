@@ -1,7 +1,8 @@
 # Damoon
 
 This is a Laravel application configured to run using **Laravel Sail** with Docker.
-
+## Description
+I use Domain Driven Development approach to provide this test project
 ## Requirements
 
 - Docker
@@ -42,9 +43,19 @@ php artisan migrate:fresh --seed
 
 ./vendor/bin/sail artisan migrate:fresh --seed
 ```
-### Tests:
-```bash
-
+### Api:
+```
+Method: POST
+http://localhost:8000/api/book
+```
+```json
+{
+    "room_id" : 1,
+    "user_name" : "Ali_Rezvani",
+    "user_email" : "ali.rezvaniara@gmail.com",
+    "check_in_date" : "2026-11-24",
+    "check_out_date": "2026-11-24"
+}
 ```
 ### Run Project:
 ```bash

@@ -50,6 +50,7 @@
     46 => 'App\\Providers\\AppServiceProvider',
     47 => 'App\\Providers\\Filament\\AdminPanelProvider',
     48 => 'App\\Providers\\FortifyServiceProvider',
+    49 => 'App\\Providers\\BookingServiceProvider',
   ),
   'eager' => 
   array (
@@ -87,6 +88,7 @@
     31 => 'App\\Providers\\AppServiceProvider',
     32 => 'App\\Providers\\Filament\\AdminPanelProvider',
     33 => 'App\\Providers\\FortifyServiceProvider',
+    34 => 'App\\Providers\\BookingServiceProvider',
   ),
   'deferred' => 
   array (
