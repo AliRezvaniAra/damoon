@@ -63,3 +63,14 @@ php artisan serve
 
 ./vendor/bin/sail artisan serve
 ```
+
+### queue:
+```bash
+php artisan queue:work --queue=high,default
+```
+
+also there is a code in the job you can enable commented code below:(BookingEmailJob.php)
+```php
+dd([$this->reservationModel,$this->room,$this->hotel]);
+```
+to see what we can show in the view
